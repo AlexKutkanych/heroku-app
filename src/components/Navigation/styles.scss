@@ -1,0 +1,14 @@
+@import '../../consts.scss';
+
+
+.navigation {
+    display: flex;
+
+    &-section {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        background-color: $main-color;
+    }
+}
